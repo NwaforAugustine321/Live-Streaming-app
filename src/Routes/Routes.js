@@ -2,7 +2,17 @@ import {
     Home,
     PageNotFound,
     About,
-    Catalog
+    Catalog,
+    Category,
+    Contact,
+    Detail,
+    ForgotPassword,
+    Interview,
+    Live,
+    Pricing,
+    Privacy,
+    Signin,
+    Signup
 }  from '../views';
 
 
@@ -30,5 +40,65 @@ export const publicRoutes={
         name:"Catalog",
         path:'/catalog',
         component:Catalog
+    },
+    Category:{
+        id:3,
+        name:"Category",
+        path:'/category',
+        component:Category
+    },
+    Contact:{
+        id:3,
+        name:"Contact",
+        path:'/contact',
+        component:Contact
+    },
+    Detail:{
+        id:3,
+        name:"Detail",
+        path:'/detail',
+        component:Detail
+    },
+    Interview:{
+        id:3,
+        name:"Interview",
+        path:'/interview',
+        component:Interview
+    },
+    Pricing:{
+        id:3,
+        name:"Pricing",
+        path:'/pricing',
+        component:Pricing
+    },
+    Privacy:{
+        id:3,
+        name:"Privacy",
+        path:'/privacy',
+        component:Privacy
+    },
+    Signup:{
+        id:3,
+        name:"Signup",
+        path:'/signup',
+        component:Signup
+    },
+    Signin:{
+        id:3,
+        name:"Signin",
+        path:'/signin',
+        component:Signin
+    },
+    Live:{
+        id:3,
+        name:"Live",
+        path:'/live',
+        component:Live
+    },
+    ForgotPassword:{
+        id:3,
+        name:"ForgotPassword",
+        path:'/forgotpassword',
+        component:ForgotPassword
     },
 };

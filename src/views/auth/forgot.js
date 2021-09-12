@@ -1,6 +1,6 @@
 const ForgotPassword = () => {
 	return (
-		<div className='sign section--full-bg' data-bg='img/bg.jpg'>
+		<div className='sign section--full-bg' data-bg='../../img/bg.jpg'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-12'>

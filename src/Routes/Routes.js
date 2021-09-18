@@ -98,7 +98,7 @@ export const publicRoutes={
     ForgotPassword:{
         id:3,
         name:"ForgotPassword",
-        path:'/forgotpassword',
+        path:'/forgot',
         component:ForgotPassword
     },
 };

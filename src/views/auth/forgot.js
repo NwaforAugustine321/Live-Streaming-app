@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ForgotPassword = () => {
 	return (
 		<div className='sign section--full-bg' data-bg='../../img/bg.jpg'>
@@ -16,7 +18,7 @@ const ForgotPassword = () => {
 								<div className='sign__group sign__group--checkbox'>
 									<input id='remember' name='remember' type='checkbox' defaultChecked='checked' />
 									<label htmlFor='remember'>
-										I agree to the <a href='privacy.html'>Privacy Policy</a>
+										I agree to the <Link to="/privacy">Forgot password?</Link>
 									</label>
 								</div>
 								<button className='sign__btn' type='button'>
